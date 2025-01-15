@@ -24,4 +24,4 @@ jobs:
           omc-diff: true
 
       - name: Load Modelica
-        run: /usr/bin/omc ${{ github.workspace }}/script.mos
+        run: /usr/bin/omc ${{ github.workspace }}/HelloWorld/package.mo
