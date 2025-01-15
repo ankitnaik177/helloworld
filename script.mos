@@ -1,3 +1,5 @@
 loadModel(Modelica);
 loadFile("HelloWorld.mo");
-simulate(HelloWorld)
+simulate(HelloWorld);
+loadFile("b/package.mo");
+simulate(b.HelloWorld);
