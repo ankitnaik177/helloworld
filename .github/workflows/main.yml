@@ -24,4 +24,4 @@ jobs:
           omc-diff: true
 
       - name: Load Modelica
-        run: omc script.mos
+        run: /usr/bin/omc script.mos
