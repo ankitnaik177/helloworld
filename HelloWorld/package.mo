@@ -1,10 +1,6 @@
 package HelloWorld
   annotation(
-    uses(
-      IntroductoryExamples(
-        version = "14.3"
-      )
-    ),
+   
     Icon(
       coordinateSystem(extent = {{-100, -100}, {100, 100}}, preserveAspectRatio = true, initialScale = 0.1, grid = {10, 10}),
       graphics = {
