@@ -24,4 +24,4 @@ jobs:
           omc-diff: true
 
       - name: Load Modelica
-        run: omc loadModel(Modelica);
+        run: omc script.mos
