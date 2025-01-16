@@ -2,3 +2,4 @@ loadModel(Modelica);
 loadFile("HelloWorld.mo");
 simulate(HelloWorld);
 checkModel(HelloWorld);
+compareSimulationResults(HelloWorld.mat,HelloWorld_res.mat,"x");
