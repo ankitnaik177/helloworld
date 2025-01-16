@@ -1,4 +1,3 @@
-loadModel(Modelica);
 loadFile("HelloWorld.mo");
 simulate(HelloWorld);
-checkModel(HelloWorld);
+compareSimulationResults("HelloWorld.mat","HelloWorld_res.mat","res.txt",0.001,0.001,{"x"});getErrorString();
